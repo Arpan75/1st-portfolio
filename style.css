@@ -1,3 +1,59 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
 h1{
-    color: red;
+    font-size: 40px;
+}
+p{
+    color: grey;
+}
+.button{
+    padding: 10px 40px;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+
+}
+/* Home Section */
+.home-section{
+    background-color: white;
+    padding: 100px;
+}
+.display{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    margin-left: 50%;
+
+}
+.half-width a i{
+    color: black;
+    margin-right: 20px;
+    font-size: 20px;
+}
+/* About Section */
+.myself{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+
+}
+.personal-details{
+    text-align: justify;
+    margin-left: 10%;
+}
+.personal-details2{
+    text-align: left;
+    margin-left: 10%;
+}
+.personal-details2 strong{
+    color: black;
+}
+/* Contact Section */
+.contact-section h1{
+    margin-top: 50px;
 }
