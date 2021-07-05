@@ -1,5 +1,7 @@
+
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 h1{
     font-size: 40px;
@@ -15,6 +17,11 @@ p{
 
 }
 /* Home Section */
+.home-section{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    
+}
 .home-section{
     background-color: white;
     padding: 100px;
@@ -56,4 +63,36 @@ p{
 /* Contact Section */
 .contact-section h1{
     margin-top: 50px;
+}
+/* Skills Section */
+.newone{
+    text-align: center;
+}
+.skills-half{
+    width: 40%;
+    margin-left: 5%;
+    box-shadow: 10px 10px 30px gray;
+}
+.skills-half h1{
+    text-align: center;
+}
+#html{
+    border-left: 7px solid ;
+    border-image: linear-gradient(salmon,tomato);
+    border-image-slice: 1;
+}
+#css{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+/* Footer Section */
+.footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer p{
+    text-align: center;
+    color: black;
+    font-size: 20px;
 }
